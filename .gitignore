@@ -1,0 +1,24 @@
+# ─── OppScan root .gitignore ─────────────────────────────
+node_modules/
+dist/
+build/
+coverage/
+*.log
+.DS_Store
+
+# env
+.env
+.env.local
+backend/.env
+frontend/.env
+backend/data/*.json
+!backend/data/.gitkeep
+
+# vite / editors
+frontend/dist/
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# OS
+Thumbs.db
